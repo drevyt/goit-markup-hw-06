@@ -829,9 +829,9 @@ img {
  }
 
 .modal-button {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Footer*/
@@ -889,6 +889,7 @@ address {
 
 /*Footer-contact*/
 .footer-contact {
+    flex-grow: id;
     margin-right: 70px;
 }
 
